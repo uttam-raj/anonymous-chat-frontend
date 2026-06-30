@@ -1,12 +1,112 @@
-# React + Vite
+# Anonymous Chat Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is the frontend of the Anonymous Chat application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is built using:
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Socket.IO Client
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Users can:
+
+- Connect anonymously
+- Chat with random people
+- Skip current partner
+- End chat
+- Send real-time messages
+
+---
+
+## Features
+
+- Anonymous chatting
+- Real-time messaging
+- Random partner matching
+- Skip chat
+- End chat
+- Connection status
+- Message counter
+- Responsive UI
+
+---
+
+## Technologies Used
+
+- React
+- Vite
+- Socket.IO Client
+- CSS
+
+---
+
+## Project Structure
+
+client/
+│
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── services/
+│ ├── App.jsx
+│ └── main.jsx
+│
+├── public/
+├── package.json
+└── vite.config.js
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a .env file
+
+```env
+VITE_BACKEND_URL=https://your-backend-url.up.railway.app
+```
+
+Start development server
+
+```bash
+npm run dev
+```
+
+---
+
+## Build
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## Deployment
+
+Frontend is deployed on Vercel.
+
+---
+
+## Author
+
+Uttam Rajwar
